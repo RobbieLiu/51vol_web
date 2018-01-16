@@ -1,0 +1,46 @@
+
+/* CSS Document */
+html, body, ul, li, h1, h2, h3, h4, h5, h6, fieldset, legend {padding:0; margin:0;}
+ul,li {list-style-type:none; text-transform:capitalize;}
+.clear {clear:both; *display:inline;/*IE only*/}
+
+/*menu*/
+#content{font-family:微软雅黑}
+#nav_content{ width:auto; color:#191919;}
+#nav {margin:0 auto; width:1170px;display:block;background: #191919;height: 45px; }
+#nav .jquery_out {float:left;line-height:32px;display:block; border-right:1px solid #fff; text-align:center; color:#fff;font:18px/32px "微软雅黑"; background:#191919  0 0 repeat-x;}
+#nav .jquery_out .smile {padding-left:1em;}
+#nav .jquery_inner {margin-left:16px;}
+#nav .jquery {margin-right:1px;padding:0 2em;}
+#nav .mainlevel {background:#191919; float:left; border-right:1px solid #101010; width:100px; height:45px; text-align:center;/*IE6 only*/}
+#nav .mainlevel a {color:#fff; text-decoration:none; line-height:45px; display:block; width:100px;font-size:15px;}
+#nav .mainlevel a:hover {color:#fff; text-decoration:none; background:#e5232b; height:45px; width:auto; font-size:15px;}
+#nav .mainlevel ul {display:none; position:absolute;}
+#nav .mainlevel li {border-top:1px solid #3b3b3b; background:#191919; width:100px;/*IE6 only*/}
+.log {text-align:center; color:skyblue; line-height:24px; text-transform:capitalize; margin:50px auto;}
+
+
+#nav .mainlevel_r {background:#e5232b; float:right; border-right:1px solid #101010; width:100px; height:45px; text-align:center;/*IE6 only*/}
+#nav .mainlevel_r a {color:#fff; text-decoration:none; line-height:45px; display:block; width:100px;font-size:14px;}
+#nav .mainlevel_r a:hover {color:#fff; text-decoration:none; background:#f62932; height:45px; width:auto; font-size:14px;}
+
+
+#nav .mainlevel_login {float:right; border-right:0px solid #101010; width:100px; height:45px; text-align:center;/*IE6 only*/}
+#nav .mainlevel_login a {color:#fff; line-height:45px; display:block; width:100px;font-size:14px;}
+
+
+
+
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
